@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>DJTurntable</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Website project for Digital & Web Design II">
+        <meta name="author" content="Benjamin Culkin">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <style type="text/css">
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+            .sidebar-nav {
+                padding: 9px 0;
+            }
+
+            @media (max-width: 980px) {
+                .navbar-text.pull-right {
+                    float: none;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+            }
+            .speaker {
+                width: 139.857px;
+                height: 139.857px;
+            }
+            #columnated {
+                -webkit-column-count: 3;
+                -moz-column-count: 3;
+                column-count: 3;
+            }
+            #columnated figure {
+                height: 400px;
+            }
+        </style>
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+        <![endif]-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand" href="index.html">DJTurntable</a>
+                    <div class="nav-collapse collapse">
+                        <p class="navbar-text pull-right">
+                            Whatever the gig, we make it big!"
+                        </p>
+                        <ul class="nav">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="about/index.html">About</a></li>
+                                    <li><a href="about/story.html">My Story</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="package.html">Packages</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="events/index.html">Events</a></li>
+                                    <li><a href="events/wedding.html">Weddings</a></li>
+                                    <li><a href="events/school.html">School celebrations</a></li>
+                                    <li><a href="events/corporate.html">Corporate Events</a></li>
+                                    <li><a href="events/special.html">Special Occasions</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="review.html">Reviews</a></li>
+                            <li><a href="resources.html">Resources</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+
+                        </ul>
+                        <br />
+                    </div>
+                    <br />
+                    <p class="pull-left">(888) 555-GIGS</p>
+
+                    <p class="pull-right"><a href="http://www.youtube.com/DJTurntable"><img alt="Youtube" src="img/youtube-icon.png"/></a>&nbsp;&nbsp;</p>
+                    <p class="pull-right"><a href="mailto:dylan@djturntable.com"><img alt="Mail" src="img/mail-icon.png"/></a>&nbsp;&nbsp;</p>
+                    <p class="pull-right"><a href="http://www.twitter.com/DJTurntable"><img alt="Twitter" src="img/twitter-icon.png"/></a>&nbsp;&nbsp;</p>
+                    <p class="pull-right"><a href="http://www.facebook.com/DJTurntable"><img alt="Facebook" src="img/fb-icon.png" /></a>&nbsp;&nbsp;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span3">
+                    <div class="well sidebar-nav">
+                        <br />
+                        <br />
+                    </div>    
+                </div>
+                <div class="span9">
+                    <div class="hero-unit">
+                        <h1> It's all about you!</h1>
+                        <p></p>
+
+                    </div>
+                    <div class="row-fluid">
+                        <p>Our mission is to provide you and your guests with the best party experience ever. From the first time we
+                        connect, to when we say "good night" at the end of a gig, you get our full attention and expert service
+                        </p>
+                    </div>
+                    <div class="row-fluid">
+                        <h2> Samples </h2>
+                        <div class="span4">
+                            <figure>
+                                <a href=""><img src="img/speaker-icon.png" alt="Speaker" class="speaker"></a>
+
+                                <figcaption> Hear some of the music 
+                                    <audio src="msc/Showdown.webm" controls> :-( </audio>
+                                </figcaption>
+
+
+                            </figure>
+                        </div>
+                        <div class="span4">
+                            <!-- TODO Add video -->
+                            <figure>
+                                <a href=""><img src="img/video-icon.png" alt="Video" class="speaker"></a>
+
+                                <figcaption> See some of the fun </figcaption>
+
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div id="columnated">
+                        <figure>
+                            <img src="img/DJ.jpg" alt="Dj Disk" />
+                            <figcaption>
+                                <h2> <a href="about.html">Meet the DJ</a></h2>
+                                <p> Dylan Jackson has a passion for music and loves sharing it with great people.
+                                    Read his story and get to know DJTurntable...
+                                </p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/event.png" alt="Event Ribbon"/>
+                            <figcaption>
+                                <h2> <a href="events/index.html">Event Services</a></h2>
+                                <p>
+                                    DJTurntable has loads of experience playing for all types of audiences at all kinds of celebrations. See
+                                    how much fun you can have...
+                                </p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/review.jpeg" alt="Review" width="128" height="128"/>
+                            <figcaption>
+                                <h2> <a href="review.html">Rave Reviews</a></h2>
+                                <p>
+                                    <b> We're not bragging, but our clients are! Here's the beat on the street...</b>
+                                    <i> "Our students were thrilled, and even the teachers enjoyed the idea.</i>
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <footer>
+            <p class="navbar-text pull-left">&copy; 2006 DJ Turntable, Inc. All Rights Reserved</p>
+            <p class="navbar-text pull-right">dj@djturntable.com</p>
+            <br />
+            <p class="navbar-text" style="text-align: center;">
+                Phone: (888) 555-GIGS
+                Fax: (312) 555-GIGS
+                <br />
+                Mail: DJ Turntable / 3026 North Ashland Avenue / Chicago, IL 60657
+            </p>
+        </footer>
+    </body>
+</html>
