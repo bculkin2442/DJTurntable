@@ -9,6 +9,8 @@
             <word>DJ</word>
             <word>DJTurntable</word>
             <word>ing</word>
+            <word>playlist</word>
+            <word>proms</word>
         </spellchecker-wordlist>
     </configuration>
 </project>
